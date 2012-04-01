@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  padding-top: 60px;
+ background-image:url('Background.jpg');
 } 
 
 section {
@@ -67,6 +67,15 @@ p {
 
 /* header */
 
+.header-opmaak {
+	height: 156px;
+	width: 977px;
+	background-image:url('Header.jpg');
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
 #logo {
   float: left;
   margin-right: 10px;
@@ -92,6 +101,10 @@ footer {
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #999;
+  background-image:url('Footer.jpg');
+	width: 975px;
+	height: 115px;
+	background-repeat: no-repeat;
 }
 
 footer a {
@@ -223,4 +236,16 @@ aside {
   }
 }
 
+/* container */
 
+.container { 
+	background-image:url('Content.jpg');
+	width: 972px;
+	height: 586px;
+}
+
+.container:hover { 
+	background-image:url('Content1.jpg');
+	width: 972px;
+	height: 586px;
+}

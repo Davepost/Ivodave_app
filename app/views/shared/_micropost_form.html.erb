@@ -1,6 +1,19 @@
 <%= form_for(@micropost) do |f| %>
   <%= render 'shared/error_messages', object: f.object %>
-  <div class="field">
+
+ <div class="btn-group dropup">
+  <button class="btn">Dropup</button>
+  <button class="btn dropdown-toggle" data-toggle="dropdown">
+  <span class="caret"></span>
+  </button>
+
+<ul class="dropdown-menu">
+
+<%=  @users %>
+
+ </ul>
+</div>
+<div class="field">
     <%= f.text_area :content, placeholder: "Compose new micropost..." %>
   </div>
   <%= f.submit "Post", class: "btn btn-large btn-primary" %>

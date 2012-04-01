@@ -22,6 +22,11 @@ namespace :db do
           content = Faker::Lorem.sentence(5)
           users.each { |user| user.microposts.create!(content: content) }
         end
+      users = User.all(limit: 3)
+        4.times do
+         name = Faker::Lorem.sentence(5)
+        users.first { |user| user.topics.create!(name: name) }
+        end
       end
     end
 
