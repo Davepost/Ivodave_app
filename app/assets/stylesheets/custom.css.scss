@@ -19,7 +19,8 @@ html {
 }
 
 body {
- background-image:url('Background.jpg');
+ background-image:url('Background2.jpg');
+ 
 } 
 
 section {
@@ -68,12 +69,12 @@ p {
 /* header */
 
 .header-opmaak {
-	height: 156px;
-	width: 977px;
-	background-image:url('Header.jpg');
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 20px;
+	height: 75px;
+	width: 100%;
+	background-image: url('Header2.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	position: fixed;
 }
 
 #logo {
@@ -208,6 +209,12 @@ input, textarea, select, .uneditable-input {
     }
   }
 }
+
+.topics {
+  list-style: none;
+  margin: 10px 0 0 0;
+
+}
 /* microposts */
 
 .microposts {
@@ -238,14 +245,22 @@ aside {
 
 /* container */
 
-.container { 
-	background-image:url('Content.jpg');
-	width: 972px;
+.containerIvon1 { 
+	background-image:url('ContentIvon.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 106px;
+	width: 100%;
 	height: 586px;
+
 }
 
-.container:hover { 
-	background-image:url('Content1.jpg');
-	width: 972px;
+.containerIvon1:hover { 
+	background-image:url('ContentIvon1.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 106px;
+	width: 100%;
 	height: 586px;
+
 }
